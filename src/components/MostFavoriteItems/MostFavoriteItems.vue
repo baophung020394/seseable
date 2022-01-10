@@ -1,7 +1,39 @@
 <template>
   <div class="mostFavoriteItemContainer wrapper">
-    <h1 class="mostFavoriteItemTitle">Most Favorite Items</h1>
-    <VueSlickCarousel class="mostFavoriteItemCarousel" v-bind="settings">
+    <h1 class="mostFavoriteItemTitle">{{sectionTitle}}</h1>
+    <VueSlickCarousel class="mostFavoriteItemCarousel" v-bind="settings" :arrows="true" :dots="false">
+      <div class="mostFavoriteItemCard">
+        <a-card hoverable>
+          <a href="#" class="mostFavoriteItemLink">
+            <img
+              slot="cover"
+              alt="example"
+              src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
+            />
+          </a>
+          <a href="#" class="mostFavoriteItemTitleLink">
+            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+            </a-card-meta>
+          </a>
+          <span class="mostFavoriteItemPrice">US$20.99</span>
+        </a-card>
+      </div>
+      <div class="mostFavoriteItemCard">
+        <a-card hoverable>
+          <a href="#" class="mostFavoriteItemLink">
+            <img
+              slot="cover"
+              alt="example"
+              src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
+            />
+          </a>
+          <a href="#" class="mostFavoriteItemTitleLink">
+            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+            </a-card-meta>
+          </a>
+          <span class="mostFavoriteItemPrice">US$20.99</span>
+        </a-card>
+      </div>
       <div class="mostFavoriteItemCard">
         <a-card hoverable>
           <a href="#" class="mostFavoriteItemLink">
@@ -142,6 +174,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
 
 export default {
   name: 'MostFavoriteItems',
+  props: ['sectionTitle'],
   components: {
     VueSlickCarousel,
   },
@@ -158,8 +191,8 @@ export default {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 4,
+              slidesToScroll: 1,
               infinite: true,
               dots: true,
             },
@@ -168,7 +201,7 @@ export default {
             breakpoint: 600,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
               initialSlide: 2,
             },
           },
@@ -190,14 +223,14 @@ export default {
 .mostFavoriteItemContainer {
   position: relative;
   .mostFavoriteItemCarousel {
-    .slick-slide {
+    .slick-slide:nth-child(1) {
       // max-width: 326px;
-      margin-right: 10px;
+      // margin-right: 10px;
     }
     .slick-arrow.slick-prev {
       position: absolute;
       top: -40px;
-      right: 100px;
+      right: 117px;
       z-index: 1;
       left: unset;
       &:before {
@@ -210,7 +243,7 @@ export default {
     .slick-arrow.slick-next {
       position: absolute;
       top: -40px;
-      right: 36px;
+      right: 53px;
       z-index: 1;
       left: unset;
       &:before {
@@ -253,7 +286,7 @@ export default {
     }
     .mostFavoriteItemLink {
       img {
-        width: 100%;
+        // width: 100%;
       }
     }
   }

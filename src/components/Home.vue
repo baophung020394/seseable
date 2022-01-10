@@ -10,7 +10,13 @@
           <BannerCategory />
         </div>
         <div class="homeSection">
-          <MostFavoriteItems />
+          <MostFavoriteItems section-title="Most Favorite Items"  />
+        </div>
+        <div class="homeSection">
+          <CustomGift section-title="Personalized Gifts For Your Beloved"  />
+        </div>
+        <div class="homeSection">
+          <MostFavoriteItems section-title="New Arrivals"  />
         </div>
       </a-layout-content>
       <a-layout-footer class="homeFooter">Footer</a-layout-footer>
@@ -21,6 +27,7 @@
 import ProductCategory from './ProductCategory/ProductCategory.vue';
 import BannerCategory from './BannerCategory/BannerCategory.vue';
 import MostFavoriteItems from './MostFavoriteItems/MostFavoriteItems.vue';
+import CustomGift from './CustomGift/CustomGift.vue';
 
 export default {
   name: 'Home',
@@ -28,6 +35,7 @@ export default {
     ProductCategory,
     BannerCategory,
     MostFavoriteItems,
+    CustomGift,
   },
 };
 </script>

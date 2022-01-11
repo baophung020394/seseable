@@ -1,170 +1,165 @@
 <template>
-  <div class="mostFavoriteItemContainer wrapper">
-    <h1 class="mostFavoriteItemTitle">{{ sectionTitle }}</h1>
-    <VueSlickCarousel
-      class="mostFavoriteItemCarousel"
-      v-bind="settings"
-      :arrows="true"
-      :dots="false"
-    >
-      <div class="mostFavoriteItemCard">
+  <div class="newArrivalsContainer wrapper">
+    <h1 class="newArrivalsTitle">{{ sectionTitle }}</h1>
+    <VueSlickCarousel class="newArrivalsCarousel" v-bind="settings" :arrows="true" :dots="false">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
               src="https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/IVS4Bd-1641532004875.jpeg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
-      <div class="mostFavoriteItemCard">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
-              src="	https://images.cloudfinary.com/styles/326x326/35.front/Black/20211027140439-1r22smiq.jpg"
+              src="https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/5lYedF-1641524600011.jpeg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
-      <div class="mostFavoriteItemCard">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
-              src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
+              src="https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/pjR7XO-1641537889081.jpeg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
-      <div class="mostFavoriteItemCard">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
-              src="https://images.cloudfinary.com/styles/326x326/8.front/Black/20210930120557-jrfloxv4.jpg"
+              src="https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/adg5SI-1641530982642.jpeg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
-      <div class="mostFavoriteItemCard">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
-            <img
-              slot="cover"
-              alt="example"
-              src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
-            />
-          </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
-            </a-card-meta>
-          </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
-        </a-card>
-      </div>
-      <div class="mostFavoriteItemCard">
-        <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
               src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
-      <div class="mostFavoriteItemCard">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
               src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
-      <div class="mostFavoriteItemCard">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
               src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
-      <div class="mostFavoriteItemCard">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
               src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
-      <div class="mostFavoriteItemCard">
+      <div class="newArrivalsCard">
         <a-card hoverable>
-          <a href="#" class="mostFavoriteItemLink">
+          <a href="#" class="newArrivalsLink">
             <img
               slot="cover"
               alt="example"
               src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
             />
           </a>
-          <a href="#" class="mostFavoriteItemTitleLink">
-            <a-card-meta class="mostFavoriteItemTitle" title="688 Atlanta Simple Design T-Shirt">
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
             </a-card-meta>
           </a>
-          <span class="mostFavoriteItemPrice">US$20.99</span>
+          <span class="newArrivalsPrice">US$20.99</span>
+        </a-card>
+      </div>
+      <div class="newArrivalsCard">
+        <a-card hoverable>
+          <a href="#" class="newArrivalsLink">
+            <img
+              slot="cover"
+              alt="example"
+              src="https://images.cloudfinary.com/styles/326x326/8.front/White/20211124134954-uofbv0ij.jpg"
+            />
+          </a>
+          <a href="#" class="newArrivalsTitleLink">
+            <a-card-meta class="newArrivalsTitle" title="688 Atlanta Simple Design T-Shirt">
+            </a-card-meta>
+          </a>
+          <span class="newArrivalsPrice">US$20.99</span>
         </a-card>
       </div>
     </VueSlickCarousel>
@@ -178,7 +173,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel.css';
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
 
 export default {
-  name: 'MostFavoriteItems',
+  name: 'NewArrivals',
   props: ['sectionTitle'],
   components: {
     VueSlickCarousel,
@@ -225,9 +220,9 @@ export default {
 </script>
 
 <style lang="scss">
-.mostFavoriteItemContainer {
+.newArrivalsContainer {
   position: relative;
-  .mostFavoriteItemCarousel {
+  .newArrivalsCarousel {
     .slick-arrow.slick-prev {
       position: absolute;
       top: -40px;
@@ -256,11 +251,11 @@ export default {
     }
   }
 
-  .mostFavoriteItemTitle {
+  .newArrivalsTitle {
     font-size: 36px;
   }
 }
-.mostFavoriteItemCard {
+.newArrivalsCard {
   // max-width: 326px;
   .ant-card {
     cursor: unset;
@@ -268,7 +263,7 @@ export default {
   }
   .ant-card-body {
     padding: 0;
-    .mostFavoriteItemTitleLink {
+    .newArrivalsTitleLink {
       color: #000;
       display: block;
       margin-top: 15px;
@@ -279,13 +274,13 @@ export default {
         font-size: 15px;
       }
     }
-    .mostFavoriteItemPrice {
+    .newArrivalsPrice {
       display: block;
       margin-top: 8px;
       font-size: 16px;
       color: #000;
     }
-    .mostFavoriteItemLink {
+    .newArrivalsLink {
       display: inline-block;
       max-width: 326px;
       img {

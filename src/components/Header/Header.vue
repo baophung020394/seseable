@@ -3,7 +3,10 @@
     <div class="headerLogo">
       <a href="/">Seseable</a>
     </div>
-    <div class="headerNav">
+    <button class="headerButtonMenu" @click="toggle = !toggle">
+      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 mr-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+    <div class="headerNav" @click="toggle = !toggle" :class="toggle ? 'active' : ''">
       <ul class="headerMainMenu">
         <li class="headerItem">
           <a href="#">Men</a>
@@ -116,6 +119,11 @@
 <script>
 export default {
   name: 'Header',
+  data() {
+    return {
+      toggle: false
+    }
+  }
 };
 </script>
 
@@ -126,8 +134,9 @@ export default {
   align-items: center;
   height: 100%;
   .headerLogo {
-    flex: 2;
+    flex: 6;
     order: 1;
+    text-align: center;
     a {
       display: inline-block;
       text-transform: uppercase;
@@ -135,6 +144,14 @@ export default {
       font-weight: bold;
       font-size: 24px;
     }
+  }
+  .headerButtonMenu {
+    flex:1;
+    order: 0;
+    background: none;
+    border: none;
+    display: inline-block;
+    text-align: left;
   }
   .headerNav {
     flex: 8;
@@ -146,6 +163,13 @@ export default {
     z-index: 1;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
+    transition: 0.2s all linear;
+    opacity: 0;
+    visibility: hidden;
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
     .headerMainMenu {
       height: 100%;
       display: flex;
@@ -183,13 +207,19 @@ export default {
   }
   .headerOptions {
     order: 2;
-    flex: 3;
+    flex: 1;
+    text-align: right;
   }
 }
 @media screen and (min-width: 1200px) {
   .headerContainer {
     .headerLogo {
       order: 0;
+      flex: 2;
+      text-align: left;
+    }
+    .headerButtonMenu {
+      display: none;
     }
     .headerNav {
       flex: 8;
@@ -197,6 +227,8 @@ export default {
       order: 1;
       background: #ffffff;
       position: unset;
+      opacity: 1;
+      visibility: visible;
       .headerMainMenu {
         width: 100%;
         flex-direction: row;
@@ -220,7 +252,7 @@ export default {
           }
           .headerSubMenu {
             position: absolute;
-            top: 80%;
+            top: 90%;
             left: 0;
             z-index: 1;
             transition: 0.4s;

@@ -26,8 +26,12 @@ export default {
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
   background: white;
+}
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 </style>

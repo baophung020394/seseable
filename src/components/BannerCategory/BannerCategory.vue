@@ -1,6 +1,6 @@
 <template>
   <div class="bannerCategoryContainer wrapper">
-    <a-row class="bannerCategoryRow" type="flex" justify="space-around" :gutter="[16, 16]">
+    <a-row class="bannerCategoryRow" type="flex" justify="space-between" :gutter="[16, 16]">
       <a-col
         class="bannerCategoryCol"
         :xs="{ span: 12 }"

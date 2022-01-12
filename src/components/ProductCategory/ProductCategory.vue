@@ -1,6 +1,6 @@
 <template>
   <div class="productCategoryContainer wrapper">
-    <a-row class="productCategoryRow" type="flex" justify="space-around" :gutter="[16, 16]">
+    <a-row class="productCategoryRow" type="flex" justify="space-between" :gutter="[16, 16]">
       <a-col class="productCategoryCol" :xs="{ span: 12 }" :sm="{ span: 12 }" :xl="{ span: 12 }">
         <a href="#" class="productCategoryLink">
           <a-card hoverable class="productCategoryCard">

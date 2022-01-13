@@ -68,12 +68,13 @@ export default {
         bottom: 0;
         left: 0;
         z-index: 1;
+        width: 100%;
       }
       .customGiftTitle {
         margin-bottom: 15px;
         .ant-card-meta-title {
           color: white;
-          font-size: 24px;
+          font-size: 16px;
         }
       }
       .customGiftButtonExplorer {
@@ -106,6 +107,11 @@ export default {
   .customGiftRow {
     .customGiftCol {
       max-width: 672px;
+      .customGiftTitle {
+        .ant-card-meta-title {
+          font-size: 24px;
+        }
+      }
     }
   }
 }

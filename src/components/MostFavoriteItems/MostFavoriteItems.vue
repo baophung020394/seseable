@@ -186,8 +186,8 @@ export default {
   data() {
     return {
       settings: {
-        dots: true,
-        infinite: false,
+        dots: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -199,7 +199,7 @@ export default {
               slidesToShow: 4,
               slidesToScroll: 1,
               infinite: true,
-              dots: true,
+              dots: false,
             },
           },
           {
@@ -208,6 +208,7 @@ export default {
               slidesToShow: 2,
               slidesToScroll: 1,
               initialSlide: 2,
+              dots: false,
             },
           },
           {
@@ -215,6 +216,7 @@ export default {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
+              dots: false,
             },
           },
         ],

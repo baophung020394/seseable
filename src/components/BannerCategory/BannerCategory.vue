@@ -82,17 +82,32 @@ export default {
         bottom: 0;
         left: 0;
         z-index: 1;
+        width: 100%;
       }
       .productCategoryTitle {
         .ant-card-meta-title {
           color: white;
-          font-size: 24px;
+          font-size: 14px;
         }
       }
     }
     .bannerCategoryLink {
       display: inline-block;
       position: relative;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bannerCategoryRow {
+    .bannerCategoryCol {
+      .bannerCategoryCard {
+        .productCategoryTitle {
+          .ant-card-meta-title {
+            color: white;
+            font-size: 24px;
+          }
+        }
+      }
     }
   }
 }

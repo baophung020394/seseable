@@ -1,6 +1,6 @@
 <template>
   <div class="footerBottomContainer wrapper">
-    <a-row class="footerBottomRow" type="flex" justify="space-Between" :gutter="[16, 16]">
+    <a-row class="footerBottomRow" type="flex" justify="space-between" :gutter="[16, 16]">
       <a-col class="footerBottomCol" :xs="{ span: 12 }" :sm="{ span: 12 }" :xl="{ span: 6 }">
         <h3 class="footerBottomTitle">Company</h3>
         <ul class="footerBottomList">

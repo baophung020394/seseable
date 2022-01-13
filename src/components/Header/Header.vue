@@ -243,7 +243,7 @@ export default {
       background: rgb(243, 244, 246);
       border: 1px solid rgb(243, 244, 246);
     }
-    .headerOption{ 
+    .headerOption {
       display: flex;
       align-items: center;
       .headerWishlist {
@@ -337,10 +337,10 @@ export default {
     .headerOptions {
       flex: 3;
       .headerSearchInput {
-        min-width: 250px;
-        max-width: 300px;
+        min-width: 192px;
+        max-width: 192px;
         border-radius: 40px;
-        height: 50px;
+        height: 40px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -355,7 +355,7 @@ export default {
           height: 100%;
           border-top-right-radius: 40px;
           border-bottom-right-radius: 40px;
-          background-color:rgb(243, 244, 246);
+          background-color: rgb(243, 244, 246);
         }
       }
     }

@@ -58,6 +58,9 @@ export default {
 };
 </script>
 <style lang="scss">
+// .productCategoryContainer.wrapper {
+//   padding: 0 20px;
+// }
 .productCategoryRow {
   margin: 0 !important;
   .productCategoryCol {

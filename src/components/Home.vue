@@ -5,59 +5,27 @@
         <Header />
       </a-layout-header>
       <a-layout-content class="homeContent">
-        <div class="homeSection">
-          <Banner />
-        </div>
-      </a-layout-content>
-      <!-- <a-layout-content class="homeContent">
-        <div class="homeSection">
-          <ProductCategory />
-        </div>
-        <div class="homeSection">
-          <BannerCategory />
-        </div>
-        <div class="homeSection">
-          <MostFavoriteItems section-title="Most Favorite Items" />
-        </div>
-        <div class="homeSection">
-          <CustomGift section-title="Personalized Gifts For Your Beloved" />
-        </div>
-        <div class="homeSection">
-          <NewArrivals section-title="New Arrivals" />
-        </div>
-        <div class="homeSection">
-          <Categories />
-        </div>
+        <HomeSection />
       </a-layout-content>
       <a-layout-footer class="homeFooter">
         <FooterBottom />
-      </a-layout-footer> -->
+      </a-layout-footer>
     </a-layout>
   </div>
 </template>
 <script>
-// import ProductCategory from './ProductCategory/ProductCategory.vue';
-// import BannerCategory from './BannerCategory/BannerCategory.vue';
-// import MostFavoriteItems from './MostFavoriteItems/MostFavoriteItems.vue';
-// import CustomGift from './CustomGift/CustomGift.vue';
-// import NewArrivals from './NewArrivals/NewArrivals.vue';
-// import Categories from './Categories/Categories.vue';
-// import FooterBottom from './Footer/FooterBottom.vue';
+import FooterBottom from './Footer/FooterBottom.vue';
 import Header from './Header/Header.vue';
-import Banner from './Banner/Banner.vue';
+import HomeSection from './HomeSection/HomeSection.vue';
+// import PageSidebar from './PageSidebar/PageSidebar.vue';
 
 export default {
   name: 'Home',
   components: {
-    // ProductCategory,
-    // BannerCategory,
-    // MostFavoriteItems,
-    // CustomGift,
-    // NewArrivals,
-    // Categories,
-    // FooterBottom,
+    FooterBottom,
     Header,
-    Banner
+    HomeSection,
+    // PageSidebar,
   },
 };
 </script>
@@ -73,6 +41,9 @@ export default {
 }
 .homeFooter {
   background-color: #e5e7eb !important;
+}
+.homeFooter.ant-layout-footer {
+  padding: 24px 0;
 }
 .homeHeader.ant-layout-header {
   height: 72px;

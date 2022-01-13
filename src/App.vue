@@ -27,11 +27,13 @@ export default {
   width: 100%;
   margin: auto;
   background: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 @media screen and (min-width: 1200px) {
-  .wrapper {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
+  /* .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  } */
 }
 </style>

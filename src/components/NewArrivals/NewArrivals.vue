@@ -257,6 +257,7 @@ export default {
 
   .newArrivalsTitle {
     font-size: 36px;
+    margin-bottom: 30px;
   }
 }
 .newArrivalsCard {

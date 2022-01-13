@@ -260,6 +260,7 @@ export default {
 
   .mostFavoriteItemTitle {
     font-size: 36px;
+    margin-bottom: 30px;
   }
 }
 .mostFavoriteItemCard {

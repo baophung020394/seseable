@@ -4,6 +4,11 @@
       <a-layout-header class="homeHeader">
         <Header />
       </a-layout-header>
+      <a-layout-content class="homeContent">
+        <div class="homeSection">
+          <Banner />
+        </div>
+      </a-layout-content>
       <!-- <a-layout-content class="homeContent">
         <div class="homeSection">
           <ProductCategory />
@@ -39,6 +44,7 @@
 // import Categories from './Categories/Categories.vue';
 // import FooterBottom from './Footer/FooterBottom.vue';
 import Header from './Header/Header.vue';
+import Banner from './Banner/Banner.vue';
 
 export default {
   name: 'Home',
@@ -51,6 +57,7 @@ export default {
     // Categories,
     // FooterBottom,
     Header,
+    Banner
   },
 };
 </script>

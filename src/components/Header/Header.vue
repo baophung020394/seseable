@@ -244,6 +244,8 @@ export default {
       border: 1px solid rgb(243, 244, 246);
     }
     .headerOption{ 
+      display: flex;
+      align-items: center;
       .headerWishlist {
         border: none;
         background: none;
@@ -333,11 +335,7 @@ export default {
       }
     }
     .headerOptions {
-      flex: 5;
-      .headerOption {
-        display: flex;
-        align-items: center;
-      }
+      flex: 3;
       .headerSearchInput {
         min-width: 250px;
         max-width: 300px;

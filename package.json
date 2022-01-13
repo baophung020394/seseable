@@ -1,12 +1,14 @@
 {
     "name": "seseable",
     "version": "0.1.0",
+    "homepage": "https://baophung020394.github.io/seseable/",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",
-        "deploy": "node scripts/gh-pages-deploy.js"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "ant-design-vue": "^1.7.8",
@@ -24,8 +26,7 @@
         "eslint-plugin-vue": "^6.2.2",
         "node-sass": "^5.0.0",
         "sass-loader": "^10.1.1",
-        "vue-template-compiler": "^2.6.11",
-        "execa": "latest"
+        "vue-template-compiler": "^2.6.11"
     },
     "eslintConfig": {
         "root": true,

@@ -1,5 +1,5 @@
 <template>
-  <div class="pageSidebarContainer">
+  <div class="pageSidebarContainer wrapper">
     <a-layout class="pageSidebarLayout">
       <a-layout-sider class="pageSidebarSider">Sider</a-layout-sider>
       <a-layout-content class="pageSidebarContent">
@@ -17,18 +17,7 @@
             <a-spin v-if="loadingMore" />
             <a-button v-else @click="onLoadMore"> loading more </a-button>
           </div>
-          <a-list-item slot="renderItem" slot-scope="item">
-            <a slot="actions">edit</a>
-            <a slot="actions">more</a>
-            <a-list-item-meta
-              description="Ant Design, a design language for background applications, is refined by Ant UED Team"
-            >
-              <a slot="title" href="https://www.antdv.com/">{{ item.name.last }}</a>
-              <a-avatar
-                slot="avatar"
-                src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
-              />
-            </a-list-item-meta>
+          <a-list-item>
             <div>content</div>
           </a-list-item>
         </a-list>

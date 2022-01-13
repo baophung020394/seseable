@@ -54,6 +54,7 @@ export default {
 <style lang="scss">
 .customGiftTitle {
   font-size: 36px;
+  margin-bottom: 30px;
 }
 .customGiftRow {
   margin: 0 !important;

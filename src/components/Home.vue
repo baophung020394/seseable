@@ -4,7 +4,7 @@
       <a-layout-header class="homeHeader">
         <Header />
       </a-layout-header>
-      <a-layout-content class="homeContent">
+      <!-- <a-layout-content class="homeContent">
         <div class="homeSection">
           <ProductCategory />
         </div>
@@ -26,30 +26,30 @@
       </a-layout-content>
       <a-layout-footer class="homeFooter">
         <FooterBottom />
-      </a-layout-footer>
+      </a-layout-footer> -->
     </a-layout>
   </div>
 </template>
 <script>
-import ProductCategory from './ProductCategory/ProductCategory.vue';
-import BannerCategory from './BannerCategory/BannerCategory.vue';
-import MostFavoriteItems from './MostFavoriteItems/MostFavoriteItems.vue';
-import CustomGift from './CustomGift/CustomGift.vue';
-import NewArrivals from './NewArrivals/NewArrivals.vue';
-import Categories from './Categories/Categories.vue';
-import FooterBottom from './Footer/FooterBottom.vue';
+// import ProductCategory from './ProductCategory/ProductCategory.vue';
+// import BannerCategory from './BannerCategory/BannerCategory.vue';
+// import MostFavoriteItems from './MostFavoriteItems/MostFavoriteItems.vue';
+// import CustomGift from './CustomGift/CustomGift.vue';
+// import NewArrivals from './NewArrivals/NewArrivals.vue';
+// import Categories from './Categories/Categories.vue';
+// import FooterBottom from './Footer/FooterBottom.vue';
 import Header from './Header/Header.vue';
 
 export default {
   name: 'Home',
   components: {
-    ProductCategory,
-    BannerCategory,
-    MostFavoriteItems,
-    CustomGift,
-    NewArrivals,
-    Categories,
-    FooterBottom,
+    // ProductCategory,
+    // BannerCategory,
+    // MostFavoriteItems,
+    // CustomGift,
+    // NewArrivals,
+    // Categories,
+    // FooterBottom,
     Header,
   },
 };

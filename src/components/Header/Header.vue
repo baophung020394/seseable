@@ -130,10 +130,15 @@
     <div class="headerOptions">
       <div class="headerOption">
         <div class="headerSearchInput">
-          <a-icon type="search" />
+          <a-icon class="headerIconSearch" type="search" :style="{ fontSize: '28px' }" />
           <input type="text" placeholder="Search..." />
         </div>
-        <button></button>
+        <button class="headerWishlist">
+          <a-icon type="heart" :style="{ fontSize: '28px' }" />
+        </button>
+        <a href="#" class="headerCart">
+          <a-icon type="shopping-cart" :style="{ fontSize: '28px' }" />
+        </a>
       </div>
     </div>
   </div>
@@ -233,6 +238,23 @@ export default {
     order: 2;
     flex: 1;
     text-align: right;
+    .headerSearchInput {
+      display: none;
+      background: rgb(243, 244, 246);
+      border: 1px solid rgb(243, 244, 246);
+    }
+    .headerOption{ 
+      .headerWishlist {
+        border: none;
+        background: none;
+        display: flex;
+        align-items: center;
+      }
+      .headerCart {
+        display: flex;
+        align-items: center;
+      }
+    }
   }
 }
 @media screen and (min-width: 1200px) {
@@ -307,6 +329,35 @@ export default {
               }
             }
           }
+        }
+      }
+    }
+    .headerOptions {
+      flex: 5;
+      .headerOption {
+        display: flex;
+        align-items: center;
+      }
+      .headerSearchInput {
+        min-width: 250px;
+        max-width: 300px;
+        border-radius: 40px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgb(243, 244, 246);
+        .headerIconSearch {
+          flex: 1;
+        }
+        input {
+          flex: 3;
+          border: none;
+          width: 100%;
+          height: 100%;
+          border-top-right-radius: 40px;
+          border-bottom-right-radius: 40px;
+          background-color:rgb(243, 244, 246);
         }
       }
     }

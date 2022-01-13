@@ -4,7 +4,22 @@
       <a href="/">Seseable</a>
     </div>
     <button class="headerButtonMenu" @click="toggle = !toggle">
-      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 mr-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      <svg
+        stroke="currentColor"
+        fill="none"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="w-6 h-6 mr-2"
+        height="1em"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
     </button>
     <div class="headerNav" @click="toggle = !toggle" :class="toggle ? 'active' : ''">
       <ul class="headerMainMenu">
@@ -112,7 +127,15 @@
         </li>
       </ul>
     </div>
-    <div class="headerOptions">Options</div>
+    <div class="headerOptions">
+      <div class="headerOption">
+        <div class="headerSearchInput">
+          <a-icon type="search" />
+          <input type="text" placeholder="Search..." />
+        </div>
+        <button></button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -121,9 +144,9 @@ export default {
   name: 'Header',
   data() {
     return {
-      toggle: false
-    }
-  }
+      toggle: false,
+    };
+  },
 };
 </script>
 
@@ -146,7 +169,7 @@ export default {
     }
   }
   .headerButtonMenu {
-    flex:1;
+    flex: 1;
     order: 0;
     background: none;
     border: none;
@@ -178,6 +201,7 @@ export default {
       width: 18rem;
       background: #ffffff;
       padding: 1.5rem;
+      overflow-y: auto;
       li.headerItem {
         display: inline-block;
         a {
@@ -215,7 +239,7 @@ export default {
   .headerContainer {
     .headerLogo {
       order: 0;
-      flex: 2;
+      flex: 3;
       text-align: left;
     }
     .headerButtonMenu {
@@ -234,6 +258,7 @@ export default {
         flex-direction: row;
         padding: 0;
         align-items: center;
+        overflow-y: unset;
         li.headerItem {
           margin-right: 20px;
           display: inline-block;

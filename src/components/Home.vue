@@ -67,4 +67,11 @@ export default {
 .homeFooter {
   background-color: #e5e7eb !important;
 }
+.homeHeader.ant-layout-header {
+  height: 72px;
+  padding: 0 20px;
+}
+.headerContent.ant-layout-content {
+  padding: 0 20px;
+}
 </style>

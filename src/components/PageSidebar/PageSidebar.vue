@@ -1,5 +1,5 @@
 <template>
-  <div class="pageSidebarContainer wrapper">
+  <div class="pageSidebarContainer">
     <a-layout class="pageSidebarLayout">
       <a-layout-sider class="pageSidebarSider">Sider</a-layout-sider>
       <a-layout-content class="pageSidebarContent">
@@ -17,7 +17,18 @@
             <a-spin v-if="loadingMore" />
             <a-button v-else @click="onLoadMore"> loading more </a-button>
           </div>
-          <a-list-item>
+          <a-list-item slot="renderItem" slot-scope="item">
+            <a slot="actions">edit</a>
+            <a slot="actions">more</a>
+            <a-list-item-meta
+              description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+            >
+              <a slot="title" href="https://www.antdv.com/">{{ item.name.last }}</a>
+              <a-avatar
+                slot="avatar"
+                src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+              />
+            </a-list-item-meta>
             <div>content</div>
           </a-list-item>
         </a-list>
@@ -28,7 +39,9 @@
 
 <script>
 import reqwest from 'reqwest';
-const fakeDataUrl = 'https://randomuser.me/api/?results=5&inc=name,gender,email,nat&noinfo';
+import mockData from '../../mockData/mockData.json';
+
+// const fakeDataUrl = 'https://randomuser.me/api/?results=5&inc=name,gender,email,nat&noinfo';
 export default {
   name: 'PageSidebar',
   data() {
@@ -42,13 +55,13 @@ export default {
   mounted() {
     this.getData((res) => {
       this.loading = false;
-      this.data = res.results;
+      this.data = res;
     });
   },
   methods: {
     getData(callback) {
       reqwest({
-        url: fakeDataUrl,
+        url: mockData,
         type: 'json',
         method: 'get',
         contentType: 'application/json',
@@ -60,7 +73,7 @@ export default {
     onLoadMore() {
       this.loadingMore = true;
       this.getData((res) => {
-        this.data = this.data.concat(res.results);
+        this.data = res;
         this.loadingMore = false;
         this.$nextTick(() => {
           window.dispatchEvent(new Event('resize'));
@@ -69,8 +82,7 @@ export default {
     },
   },
 };
-
-console.log('fakeDataUrl', fakeDataUrl);
+console.log('mockData', mockData);
 </script>
 
 <style lang="scss">

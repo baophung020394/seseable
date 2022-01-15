@@ -20,17 +20,12 @@
           <a-list-item slot="renderItem" slot-scope="item" class="pageSidebarCards">
             <a-card hoverable class="pageSidebarCard">
               <a href="#" class="pageSidebarLink">
-                <img
-                  slot="cover"
-                  alt="example"
-                  :src="item.image"
-                />
+                <img slot="cover" alt="example" :src="item.image" />
               </a>
               <a href="#" class="pageSidebarTitleLink">
-                <a-card-meta class="pageSidebarTitle" :title="item.title">
-                </a-card-meta>
+                <a-card-meta class="pageSidebarTitle" :title="item.title"> </a-card-meta>
               </a>
-              <span class="pageSidebarPrice">{{item.price}}</span>
+              <span class="pageSidebarPrice">{{ item.price }}</span>
             </a-card>
           </a-list-item>
         </a-list>
@@ -77,10 +72,10 @@ export default {
     onLoadMore() {
       this.loadingMore = true;
       setTimeout(() => {
-        this.data = this.data.concat(mockData.results)
+        this.data = this.data.concat(mockData.results);
         this.loadingMore = false;
       }, 1000);
-      
+
       // this.getData((res) => {
       //   this.data = this.data.concat(res.results);
       //   this.loadingMore = false;
@@ -91,7 +86,6 @@ export default {
     },
   },
 };
-
 </script>
 
 <style lang="scss">
@@ -100,6 +94,7 @@ export default {
 }
 .pageSidebarContainer {
   background: #ffffff !important;
+  padding: 30px 0;
   .pageSidebarSider,
   .pageSidebarLayout {
     background: #ffffff !important;
@@ -108,23 +103,45 @@ export default {
     display: none;
   }
   .pageSidebarContent {
+    &.ant-layout-content {
+      overflow-x: unset !important;
+    }
     .ant-list-items {
       display: flex;
       flex-direction: column;
-      padding: 0 30px;
+      padding: 0;
       .pageSidebarCards {
-        border-bottom: none;
+        border-bottom: none !important;
+        // border-right: none;
         .pageSidebarCard {
-            max-width: 236px;
-            img {
-              width: 100%;
-            }
+          max-width: 236px;
+          border: none;
+          .ant-card-body {
+            padding: 0;
           }
+          img {
+            width: 100%;
+          }
+          .pageSidebarTitleLink {
+            display: inline-block;
+            margin-top: 15px;
+          }
+        }
       }
     }
   }
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 768px) {
+  .pageSidebarContainer {
+    .pageSidebarContent {
+      .ant-list-items {
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
   .pageSidebarContainer {
     .pageSidebarSider {
       display: inline-block;
@@ -134,6 +151,11 @@ export default {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+        .pageSidebarCards {
+          .pageSidebarCard {
+            max-width: 276px;
+          }
+        }
       }
     }
   }

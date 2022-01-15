@@ -1,41 +1,39 @@
 {
-    "results": [
-      {
-        "id": 1,
-        "title": "688 Atlanta Simple Design T-Shirt",
-        "price": "US$20.99",
-        "image": "https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/IVS4Bd-1641532004875.jpeg"
-      },
-      {
-        "id": 2,
-        "title": "688 Atlanta Simple Design T-Shirt",
-        "price": "US$20.99",
-        "image": "https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/IVS4Bd-1641532004875.jpeg"
-      },
-      {
-        "id": 1,
-        "title": "688 Atlanta Simple Design T-Shirt",
-        "price": "US$20.99",
-        "image": "https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/IVS4Bd-1641532004875.jpeg"
-      },
-      {
-        "id": 1,
-        "title": "688 Atlanta Simple Design T-Shirt",
-        "price": "US$20.99",
-        "image": "https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/IVS4Bd-1641532004875.jpeg"
-      },
-      {
-        "id": 1,
-        "title": "688 Atlanta Simple Design T-Shirt",
-        "price": "US$20.99",
-        "image": "https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/IVS4Bd-1641532004875.jpeg"
-      },
-      {
-        "id": 3,
-        "title": "688 Atlanta Simple Design T-Shirt",
-        "price": "US$20.99",
-        "image": "https://eagles.nyc3.digitaloceanspaces.com/2022/01/07/IVS4Bd-1641532004875.jpeg"
-      }
+    "results": [{
+            "id": 1,
+            "title": "688 Atlanta Simple Design T-Shirt",
+            "price": "US$20.99",
+            "image": "https://images.cloudfable.com/styles/375x375/34.front/Black/20220112143909-dt3euwc1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "688 Atlanta Simple Design T-Shirt",
+            "price": "US$20.99",
+            "image": "https://images.cloudfable.com/styles/375x375/34.front/Black/20220112143909-dt3euwc1.jpg"
+        },
+        {
+            "id": 1,
+            "title": "688 Atlanta Simple Design T-Shirt",
+            "price": "US$20.99",
+            "image": "https://images.cloudfable.com/styles/375x375/34.front/Black/20220112143909-dt3euwc1.jpg"
+        },
+        {
+            "id": 1,
+            "title": "688 Atlanta Simple Design T-Shirt",
+            "price": "US$20.99",
+            "image": "https://images.cloudfable.com/styles/375x375/34.front/Black/20220112143909-dt3euwc1.jpg"
+        },
+        {
+            "id": 1,
+            "title": "688 Atlanta Simple Design T-Shirt",
+            "price": "US$20.99",
+            "image": "https://images.cloudfable.com/styles/375x375/34.front/Black/20220112143909-dt3euwc1.jpg"
+        },
+        {
+            "id": 3,
+            "title": "688 Atlanta Simple Design T-Shirt",
+            "price": "US$20.99",
+            "image": "https://images.cloudfable.com/styles/375x375/34.front/Black/20220112143909-dt3euwc1.jpg"
+        }
     ]
-  }
-  
+}

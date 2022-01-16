@@ -5,8 +5,8 @@
         <Header />
       </a-layout-header>
       <a-layout-content class="homeContent">
-        <!-- <PageSidebar /> -->
-        <Cart />
+        <PageSidebar />
+        <!-- <Cart /> -->
       </a-layout-content>
       <a-layout-footer class="homeFooter">
         <FooterBottom />
@@ -18,8 +18,8 @@
 import FooterBottom from './Footer/FooterBottom.vue';
 import Header from './Header/Header.vue';
 // import HomeSection from './HomeSection/HomeSection.vue';
-// import PageSidebar from './PageSidebar/PageSidebar.vue';
-import Cart from './Cart/Cart.vue';
+import PageSidebar from './PageSidebar/PageSidebar.vue';
+// import Cart from './Cart/Cart.vue';
 
 export default {
   name: 'Home',
@@ -27,8 +27,8 @@ export default {
     FooterBottom,
     Header,
     // HomeSection,
-    // PageSidebar,
-    Cart
+    PageSidebar,
+    // Cart
   },
 };
 </script>

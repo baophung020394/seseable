@@ -137,7 +137,7 @@
           <a-icon type="heart" :style="{ fontSize: '28px' }" />
         </button>
         <a href="#" class="headerCart">
-          <a-icon type="shopping-cart" :style="{ fontSize: '28px' }" />
+          <a-icon type="shopping-cart" :style="{ fontSize: '28px', color: '#000' }" />
         </a>
       </div>
     </div>
@@ -161,6 +161,9 @@ export default {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  &.wrapper {
+    padding: 0 1rem;
+  }
   .headerLogo {
     flex: 6;
     order: 1;
@@ -245,6 +248,7 @@ export default {
     }
     .headerOption {
       display: flex;
+      justify-content: flex-end;
       align-items: center;
       .headerWishlist {
         border: none;
@@ -261,6 +265,9 @@ export default {
 }
 @media screen and (min-width: 1200px) {
   .headerContainer {
+    &.wrapper {
+      padding: 0 2rem;
+    }
     .headerLogo {
       order: 0;
       flex: 3;
@@ -301,7 +308,7 @@ export default {
           }
           .headerSubMenu {
             position: absolute;
-            top: 90%;
+            top: 110%;
             left: 0;
             z-index: 1;
             transition: 0.4s;

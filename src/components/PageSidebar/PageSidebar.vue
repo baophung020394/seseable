@@ -1,7 +1,9 @@
 <template>
   <div class="pageSidebarContainer wrapper">
     <a-layout class="pageSidebarLayout">
-      <a-layout-sider class="pageSidebarSider">Sider</a-layout-sider>
+      <a-layout-sider class="pageSidebarSider">
+        <SidebarLeft />
+      </a-layout-sider>
       <a-layout-content class="pageSidebarContent">
         <a-list
           class="demo-loadmore-list"
@@ -35,12 +37,14 @@
 </template>
 
 <script>
-// import reqwest from 'reqwest';
-// const fakeDataUrl = 'https://randomuser.me/api/?results=5&inc=name,gender,email,nat&noinfo';
 import mockData from '../../mockData/mockData.json';
+import SidebarLeft from '../SidebarLeft/SidebarLeft.vue';
 
 export default {
   name: 'PageSidebar',
+  components: {
+    SidebarLeft
+  },
   data() {
     return {
       loading: true,
@@ -52,37 +56,14 @@ export default {
   mounted() {
     this.data = mockData?.results;
     this.loading = false;
-    // this.getData((res) => {
-    //   this.loading = false;
-    //   this.data = res?.results;
-    // });
   },
   methods: {
-    // getData(callback) {
-    //   reqwest({
-    //     url: fakeDataUrl,
-    //     type: 'json',
-    //     method: 'get',
-    //     contentType: 'application/json',
-    //     success: (res) => {
-    //       callback(res);
-    //     },
-    //   });
-    // },
     onLoadMore() {
       this.loadingMore = true;
       setTimeout(() => {
         this.data = this.data.concat(mockData.results);
         this.loadingMore = false;
       }, 1000);
-
-      // this.getData((res) => {
-      //   this.data = this.data.concat(res.results);
-      //   this.loadingMore = false;
-      //   this.$nextTick(() => {
-      //     window.dispatchEvent(new Event('resize'));
-      //   });
-      // });
     },
   },
 };
@@ -109,12 +90,12 @@ export default {
     .ant-list-items {
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       padding: 0;
       .pageSidebarCards {
         border-bottom: none !important;
         // border-right: none;
         .pageSidebarCard {
-          max-width: 236px;
           border: none;
           .ant-card-body {
             padding: 0;
@@ -125,6 +106,7 @@ export default {
           .pageSidebarTitleLink {
             display: inline-block;
             margin-top: 15px;
+            width: 100%;
           }
         }
       }
@@ -137,6 +119,11 @@ export default {
       .ant-list-items {
         flex-wrap: wrap;
         flex-direction: row;
+        .pageSidebarCards {
+          .pageSidebarCard {
+            max-width: 250px;
+          }
+        }
       }
     }
   }

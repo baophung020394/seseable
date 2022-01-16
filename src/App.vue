@@ -15,8 +15,12 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: helvetica-neue;
+  src: url('./assets/fonts/HelveticaNeue.ttf');
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, helvetica-neue, sans-serif;
   color: #2c3e50;
   overflow-x: hidden;
   background: white;

@@ -1,0 +1,19 @@
+{
+    "results": [{
+            "id": 1,
+            "categoryName": "Kids"
+        },
+        {
+            "id": 2,
+            "categoryName": "Home & Living"
+        },
+        {
+            "id": 3,
+            "categoryName": "Men"
+        },
+        {
+            "id": 4,
+            "categoryName": "Women"
+        }
+    ]
+}

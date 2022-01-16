@@ -1,0 +1,55 @@
+{
+    "results": [{
+            "id": 1,
+            "productName": "Baby Onesies"
+        },
+        {
+            "id": 2,
+            "productName": "Coffee Mugs"
+        },
+        {
+            "id": 3,
+            "productName": "Kid  T-shirts"
+        },
+        {
+            "id": 4,
+            "productName": "Men Hoodies"
+        },
+        {
+            "id": 4,
+            "productName": "Men V-Neck T-shirts"
+        },
+        {
+            "id": 4,
+            "productName": "Unisex Long Sleeves"
+        },
+        {
+            "id": 4,
+            "productName": "Unisex Sweat Shirts"
+        },
+        {
+            "id": 4,
+            "productName": "Unisex T-Shirts"
+        },
+        {
+            "id": 4,
+            "productName": "Unisex Tank Tops"
+        },
+        {
+            "id": 4,
+            "productName": "Women Flowy Tanks"
+        },
+        {
+            "id": 4,
+            "productName": "Women Hoodies"
+        },
+        {
+            "id": 4,
+            "productName": "Women T-shirts"
+        },
+        {
+            "id": 4,
+            "productName": "Women V-Neck T-shirts"
+        }
+    ]
+}

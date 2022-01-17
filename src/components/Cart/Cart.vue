@@ -88,6 +88,7 @@ export default {
     background: #f3f4f6;
   }
   .cartHeader {
+    margin-bottom: 30px;
     h1 {
       font-size: 24px;
       font-weight: 500;
@@ -180,6 +181,7 @@ export default {
     .cartContentRightInfo {
       flex: 4;
       padding-right: 20px;
+      margin-bottom: 15px;
       h3 {
         a {
           font-size: 18px;

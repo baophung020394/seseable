@@ -18,9 +18,6 @@
     <div class="homeSection">
       <NewArrivals section-title="New Arrivals" />
     </div>
-    <div class="homeSection">
-      <Categories />
-    </div>
   </div>
 </template>
 
@@ -30,7 +27,6 @@ import BannerCategory from '../BannerCategory/BannerCategory.vue';
 import MostFavoriteItems from '../MostFavoriteItems/MostFavoriteItems.vue';
 import CustomGift from '../CustomGift/CustomGift.vue';
 import NewArrivals from '../NewArrivals/NewArrivals.vue';
-import Categories from '../Categories/Categories.vue';
 import Banner from '../Banner/Banner.vue';
 
 export default {
@@ -41,7 +37,6 @@ export default {
     MostFavoriteItems,
     CustomGift,
     NewArrivals,
-    Categories,
     Banner,
   },
 };

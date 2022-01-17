@@ -181,8 +181,8 @@ export default {
     .cartContentRightInfo {
       flex: 4;
       padding-right: 20px;
-      margin-bottom: 15px;
       h3 {
+        margin-bottom: 15px;
         a {
           font-size: 18px;
           color: #000;

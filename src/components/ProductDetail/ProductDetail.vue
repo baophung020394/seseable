@@ -776,7 +776,7 @@ export default {
       form: this.$form.createForm(this, { name: 'coordinated' }),
       toggleReply: false,
       data,
-      active_el:0,
+      active_el: null,
       settings: {
         dots: false,
         infinite: true,

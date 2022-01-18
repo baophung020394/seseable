@@ -568,7 +568,7 @@
           <h3 class="productDetailReviewTitle">All Reviews</h3>
 
           <a-list class="productListReviews" item-layout="horizontal" :data-source="data">
-            <a-list-item slot="renderItem" slot-scope="item">
+            <a-list-item slot="renderItem" slot-scope="item, idx">
               <a-list-item-meta
                 description="Ant Design, a design language for background applications, is refined by Ant UED Team"
               >
@@ -641,10 +641,9 @@
                 />
               </a-list-item-meta>
               <div class="productDetailBoxReply">
-                <button class="btn-reply" @click="toggleReply = !toggleReply">Reply</button>
+                <button class="btn-reply" @click="onClickToggle(idx)">Reply</button>
                 <a-form
-                  :style="{ display: toggleReply ? 'block' : 'none' }"
-                  class="productDetailReplyForm"
+                  :class="{active : active_el == idx}"
                   :form="form"
                   :label-col="{ span: 5 }"
                   :wrapper-col="{ span: 12 }"
@@ -747,15 +746,19 @@ import RecentProducts from '../RecentProducts/RecentProducts.vue';
 
 const data = [
   {
+    id: 0,
     title: 'Ant Design Title 1',
   },
   {
+    id: 1,
     title: 'Ant Design Title 2',
   },
   {
+    id: 2,
     title: 'Ant Design Title 3',
   },
   {
+    id: 3,
     title: 'Ant Design Title 4',
   },
 ];
@@ -773,6 +776,7 @@ export default {
       form: this.$form.createForm(this, { name: 'coordinated' }),
       toggleReply: false,
       data,
+      active_el:0,
       settings: {
         dots: false,
         infinite: true,
@@ -827,6 +831,9 @@ export default {
       this.form.setFieldsValue({
         note: `Hi, ${value === 'male' ? 'man' : 'lady'}!`,
       });
+    },
+    onClickToggle(idx) {
+      this.active_el = idx;
     },
   },
 };
@@ -885,6 +892,13 @@ export default {
         }
         .productDetailBoxReply {
           width: 100%;
+          form {
+            display: none;
+            margin-top: 15px;
+          }
+          form.active {
+            display: block;
+          }
           .productDetailReplyForm {
             margin-top: 15px;
           }

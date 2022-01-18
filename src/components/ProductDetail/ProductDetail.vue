@@ -641,8 +641,9 @@
                 />
               </a-list-item-meta>
               <div class="productDetailBoxReply">
-                <button class="btn-reply">Reply</button>
+                <button class="btn-reply" @click="toggleReply = !toggleReply">Reply</button>
                 <a-form
+                  :style="{display: toggleReply ? 'block' : 'none'}"
                   class="productDetailReplyForm"
                   :form="form"
                   :label-col="{ span: 5 }"
@@ -768,6 +769,7 @@ export default {
   },
   data() {
     return {
+      toggleReply: false,
       data,
       settings: {
         dots: false,

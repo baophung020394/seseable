@@ -4,6 +4,7 @@
       <div class="productDetailLeft">
         <div class="productDetailLeftGallery">
           <img
+            class="productDetailImage"
             src="https://images.cloudfable.com/styles/550x550/118.front/Black/20220112143906-i54iaigb.jpg"
           />
           <VueSlickCarousel
@@ -204,7 +205,476 @@
             </div>
           </VueSlickCarousel>
         </div>
+
+        <div class="productDetailLeftDesc">
+          <h3 class="productDetailLeftDescTitle">Specifications</h3>
+          <span>Tank Top Unisex</span>
+          <p>5.3 oz., pre-shrunk 100% cotton</p>
+          <p>Graphite Heather and Safety Pink are 50/50 cotton/polyester</p>
+          <p>Banded neck and armholes</p>
+          <p>Double-needle stitched bottom hem</p>
+          <p>Quarter-turned</p>
+          <span>Tank Top Unisex</span>
+          <p>5.3 oz., pre-shrunk 100% cotton</p>
+          <p>Graphite Heather and Safety Pink are 50/50 cotton/polyester</p>
+          <p>Banded neck and armholes</p>
+          <p>Double-needle stitched bottom hem</p>
+          <p>Quarter-turned</p>
+        </div>
+
+        <div class="productDetailReview">
+          <h3 class="productDetailReviewTitle">Reviews (14)</h3>
+
+          <div class="productDetailReviewItem">
+            <div class="productDetailReviewStar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+            </div>
+            <div class="productDetailReviewBar">
+              <div class="productDetailReviewResult" style="width: calc(83%)"></div>
+            </div>
+          </div>
+
+          <div class="productDetailReviewItem">
+            <div class="productDetailReviewStar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+            </div>
+            <div class="productDetailReviewBar">
+              <div class="productDetailReviewResult" style="width: calc(83%)"></div>
+            </div>
+          </div>
+
+          <div class="productDetailReviewItem">
+            <div class="productDetailReviewStar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+            </div>
+            <div class="productDetailReviewBar">
+              <div class="productDetailReviewResult" style="width: calc(12%)"></div>
+            </div>
+          </div>
+
+          <div class="productDetailReviewItem">
+            <div class="productDetailReviewStar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+            </div>
+            <div class="productDetailReviewBar">
+              <div class="productDetailReviewResult" style="width: calc(30%)"></div>
+            </div>
+          </div>
+
+          <div class="productDetailReviewItem">
+            <div class="productDetailReviewStar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star star-on"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rating-star"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                ></path>
+              </svg>
+            </div>
+            <div class="productDetailReviewBar">
+              <div class="productDetailReviewResult" style="width: calc(20%)"></div>
+            </div>
+          </div>
+
+          <h3 class="productDetailReviewTitle">All Reviews</h3>
+
+          <a-list class="productListReviews" item-layout="horizontal" :data-source="data">
+            <a-list-item slot="renderItem" slot-scope="item">
+              <a-list-item-meta
+                description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+              >
+                <div class="productDetailReviewStar" slot="title">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="rating-star star-on"
+                    width="14"
+                    height="14"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="rating-star star-on"
+                    width="14"
+                    height="14"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="rating-star"
+                    width="14"
+                    height="14"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="rating-star"
+                    width="14"
+                    height="14"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="rating-star"
+                    width="14"
+                    height="14"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    ></path>
+                  </svg>
+                </div>
+                <a slot="title" href="https://www.antdv.com/">{{ item.title }}</a>
+                <a-avatar
+                  slot="avatar"
+                  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                />
+              </a-list-item-meta>
+              <div class="productDetailBoxReply">
+                <button class="btn-reply">Reply</button>
+                <a-form
+                  class="productDetailReplyForm"
+                  :form="form"
+                  :label-col="{ span: 5 }"
+                  :wrapper-col="{ span: 12 }"
+                  @submit="handleSubmit"
+                >
+                  <a-form-item label="Email">
+                    <a-input
+                      v-decorator="['email', { rules: [{ required: true, message: 'Email' }] }]"
+                    />
+                  </a-form-item>
+                  <a-form-item label="Name">
+                    <a-input
+                      v-decorator="['name', { rules: [{ required: true, message: 'Name' }] }]"
+                    />
+                  </a-form-item>
+                  <a-form-item label="Content">
+                    <a-input
+                      type="textarea"
+                      v-decorator="['content', { rules: [{ required: true, message: 'Content' }] }]"
+                    />
+                  </a-form-item>
+                  <a-form-item class="btn-submit" :wrapper-col="{ span: 12, offset: 5 }">
+                    <a-button type="primary" html-type="submit"> Submit </a-button>
+                  </a-form-item>
+                </a-form>
+              </div>
+            </a-list-item>
+          </a-list>
+        </div>
       </div>
+
       <div class="productDetailRight">
         <a-breadcrumb>
           <a-breadcrumb-item>Home</a-breadcrumb-item>
@@ -256,6 +726,13 @@
         </div>
       </div>
     </div>
+    <div class="productDetailOther">
+      <FeaturedProducts sectionTitle="Featured Products" />
+    </div>
+
+    <div class="productDetailOther">
+      <RecentProducts sectionTitle="Recent View Products" />
+    </div>
   </div>
 </template>
 
@@ -264,13 +741,34 @@ import VueSlickCarousel from 'vue-slick-carousel';
 import 'vue-slick-carousel/dist/vue-slick-carousel.css';
 // optional style for arrows & dots
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
+import FeaturedProducts from '../FeaturedProducts/FeaturedProducts.vue';
+import RecentProducts from '../RecentProducts/RecentProducts.vue';
+
+const data = [
+  {
+    title: 'Ant Design Title 1',
+  },
+  {
+    title: 'Ant Design Title 2',
+  },
+  {
+    title: 'Ant Design Title 3',
+  },
+  {
+    title: 'Ant Design Title 4',
+  },
+];
+
 export default {
   name: 'ProductDetail',
   components: {
     VueSlickCarousel,
+    FeaturedProducts,
+    RecentProducts,
   },
   data() {
     return {
+      data,
       settings: {
         dots: false,
         infinite: true,
@@ -325,6 +823,111 @@ export default {
     .productDetailLeft {
       width: 100%;
       margin-bottom: 30px;
+      .productDetailImage {
+        max-height: 550px;
+      }
+      .productDetailLeftDesc {
+        margin-top: 30px;
+        .productDetailLeftDescTitle {
+          font-size: 22px;
+          color: #000;
+          margin-bottom: 15px;
+        }
+        span {
+          display: inline-block;
+          font-size: 16px;
+          color: rgb(107, 114, 128);
+          font-weight: 600;
+          margin-bottom: 8px;
+        }
+        p {
+          line-height: 20px;
+          font-size: 14px;
+          margin-bottom: 8px;
+        }
+      }
+      .productDetailReview {
+        margin-top: 30px;
+        .productDetailReviewTitle {
+          font-size: 22px;
+          color: #000;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          display: block;
+          width: 100%;
+        }
+      }
+      .productListReviews {
+        .ant-list-item {
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+        .productDetailBoxReply {
+          width: 100%;
+          .productDetailReplyForm {
+            margin-top: 15px;
+          }
+          .btn-reply {
+            margin-top: 15px;
+            border-radius: 40px;
+            background: #ffffff;
+            border: 1px solid #aaaaaa;
+            padding: 3px 10px;
+            color: #000;
+          }
+          .btn-submit {
+            .ant-btn-primary {
+              border-radius: 40px;
+              background: #ffffff;
+              border: 1px solid #aaaaaa;
+              padding: 3px 10px;
+              color: #000;
+            }
+          }
+        }
+      }
+      .productDetailReview {
+        .rating-star {
+          color: #e1e1e1;
+          margin-right: 7px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+        .star-on {
+          fill: rgb(255, 188, 89);
+          color: rgb(255, 188, 89);
+        }
+        .productDetailReviewItem {
+          display: flex;
+          align-items: center;
+          width: 100%;
+        }
+        .productDetailReviewStar {
+          width: 100px;
+        }
+        .productDetailReviewBar {
+          height: calc(8px / 2);
+          width: calc(100% - 100px);
+          background-color: rgba(211, 211, 211, 0.6);
+          border-radius: 8px;
+          display: flex;
+          margin: 0 0 0 8px;
+          position: relative;
+          overflow: hidden;
+          .productDetailReviewResult {
+            transition: all 300ms ease-in-out;
+            width: 0;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #6551cc;
+          }
+        }
+      }
     }
     .productDetailRight {
       width: 100%;
@@ -363,6 +966,7 @@ export default {
           background: #ffffff;
           border: 1px solid #000;
           transition: all 0.2s;
+          margin-bottom: 10px;
           &:hover {
             background: #000;
             color: #ffffff;
@@ -486,7 +1090,7 @@ export default {
     .slick-arrow.slick-next {
       position: absolute;
       top: 50%;
-      right: 0;
+      right: 10px;
       z-index: 1;
       transform: translateY(-70%);
       left: unset;
@@ -543,6 +1147,11 @@ export default {
       }
       .productDetailRight {
         width: 35%;
+      }
+    }
+    .productDetailReview {
+      .productDetailReviewItem {
+        width: 50% !important;
       }
     }
   }

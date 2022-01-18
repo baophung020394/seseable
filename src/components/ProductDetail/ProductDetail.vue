@@ -643,7 +643,7 @@
               <div class="productDetailBoxReply">
                 <button class="btn-reply" @click="toggleReply = !toggleReply">Reply</button>
                 <a-form
-                  :style="{display: toggleReply ? 'block' : 'none'}"
+                  :style="{ display: toggleReply ? 'block' : 'none' }"
                   class="productDetailReplyForm"
                   :form="form"
                   :label-col="{ span: 5 }"
@@ -769,6 +769,8 @@ export default {
   },
   data() {
     return {
+      formLayout: 'horizontal',
+      form: this.$form.createForm(this, { name: 'coordinated' }),
       toggleReply: false,
       data,
       settings: {
@@ -810,6 +812,22 @@ export default {
         ],
       },
     };
+  },
+  methods: {
+    handleSubmit(e) {
+      e.preventDefault();
+      this.form.validateFields((err, values) => {
+        if (!err) {
+          console.log('Received values of form: ', values);
+        }
+      });
+    },
+    handleSelectChange(value) {
+      console.log(value);
+      this.form.setFieldsValue({
+        note: `Hi, ${value === 'male' ? 'man' : 'lady'}!`,
+      });
+    },
   },
 };
 </script>
